@@ -1,0 +1,7 @@
+Spark integration with Kafka:
+https://www.youtube.com/watch?v=zVgPNjSjua0
+
+
+Kafka & Zookeeper setup:
+https://www.youtube.com/watch?v=AzHcqps5VWo&list=LL&index=1
+https://www.youtube.com/watch?v=EUzH9khPYgs&t=206s
