@@ -1,0 +1,12 @@
+Spotting Fake Reviews via Collective Positive-Unlabeled Learning.
+
+Dianipping Algorithm, 
+Multi-typed Heterogeneous Collective Classification (MHCC) and then extend
+it to Collective Positive and Unlabeled learning (CPU).
+----------------------------------------------------------------------------------------
+GADM: Manual Fake Review Detection for O2O
+Commercial Platforms
+MAnual fake detection algorithm- Adaboost, LSTM
+Using of geo location to find the review is fake or not.
+ geolocation-based account detection
+model (GADM)
