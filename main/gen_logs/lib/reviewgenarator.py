@@ -1,7 +1,10 @@
+#! /usr/bin/env python3
+
 import pandas as pd
 import time
 import os
 import sys
+
 class NewReviews:
 
     def __init__(self):
@@ -9,7 +12,7 @@ class NewReviews:
         self.lengthval =0
 
     def getting_data(self):
-        data1 = pd.read_csv('Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv')
+        data1 = pd.read_csv('/opt/gen_logs/lib/Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv')
         features = ['name','asins', 'brand', 'primaryCategories', 'reviews.doRecommend', 'reviews.numHelpful', 'reviews.rating', 'reviews.title', 'reviews.text']
         data_df = data1[features].copy()
 
