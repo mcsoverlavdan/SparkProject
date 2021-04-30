@@ -5,7 +5,7 @@ kafka-server-start.bat C:\kafka_2.13-2.8.0\config\server.properties
 kafka-console-producer.bat --broker-list localhost:9092 --topic testtopic
 
 
-spark-submit --packages org.apache.spark:spark-streaming-kafka_2.12-2.8.0 Untitled1.ipynb
+spark-submit --packages org.apache.spark:spark-streaming-kafka_2.12-2.8.0 pyspark_test.ipynb
 
 
 ark-submit --jars BigDataLocalSetup/spark/jars/datanucleus-api-jdo-3.2.6.jar,BigDataLocalSetup/spark/jars/datanucleus-core-3.2.10.jar,BigDataLocalSetup/spark/jars/datanucleus-rdbms-3.2.9.jar ...
