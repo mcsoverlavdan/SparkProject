@@ -125,6 +125,9 @@ kafka-console-consumer.sh \
  
  ```
 
+```
+pyspark --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2
+```
 # References :
 https://discuss.itversity.com/t/building-streaming-pipelines-databricks/20087
 https://github.com/dgadiraju/gen-logs-python3
