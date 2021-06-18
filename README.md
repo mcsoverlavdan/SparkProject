@@ -64,6 +64,13 @@ Run stop_logs.sh to stop generating web logs
 
 ### new steps to be followed
 
+change the ip address 
+
+```
+vim /opt/kafka/config/server.properties
+```
+
+
 to start zookeeper
 
 ```
